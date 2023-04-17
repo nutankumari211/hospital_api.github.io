@@ -55,35 +55,3 @@ http://localhost:8000/patients/:id/all_reports
 
 route endpoints :- /reports/:status
 
-FOLDER STRUCTURE
-
-Hospital-API
-    |               
-    |
-    |               |--->mongoose.js
-    |--->config---->|
-    |               |--->passport-jwt-strategy.js
-    |
-    |                  |-->doctor_controoler.js
-    |--->controllers-->|-->patient_controller.js
-    |                  |-->report_controller.js
-    |
-    |               |-->Doctor.js
-    |--->models---->|-->Patient.js
-    |               |-->Report.js
-    |
-    |              
-    |               |-->doctor.js
-    |--->routes---->|-->patient.js
-    |               |-->index.js
-    |               |-->report.js
-    |
-    |
-    |              
-    |
-    |-->index.js
-    |
-    |-->node_modules
-    |-->.gitignore
-    |-->package.json
-    |
