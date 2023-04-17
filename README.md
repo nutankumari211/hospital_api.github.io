@@ -12,23 +12,26 @@ Register the patient in the app (using phone number, if the patient already exis
 After the checkup, create a Report
 Patient Report will have the following fields
 Created by doctor
-Status (patient status like:- fever , malaria etc):
-The Routes here used in project
+Status (patient status like:- fever , malaria etc)
 
-/doctors/register → with username and password
-/doctors/login → returns the JWT to be used
-/patients/register
-/patients/:id/create-report
-/patients/:id/all_reports → List all the reports of a patient oldest to latest
-/reports/:status → List all the reports of all the patients filtered by a specific status
-Tech stack
+
+#The Routes here used in project
+
+1./doctors/register → with username and password
+2./doctors/login → returns the JWT to be used
+3./patients/register
+4./patients/:id/create-report
+5./patients/:id/all_reports → List all the reports of a patient oldest to latest
+6./reports/:status → List all the reports of all the patients filtered by a specific status
+
+#Tech stack
 Node.js , Express , Mongo-DB , passport-JWT
 
-How to setup the project on local system
+#How to setup the project on local system
 Clone this project
 Start by installing npm if you don't have it already.
 Navigate to Project Directory by : Using
-cd Hospital-API
+cd HospitalAPI
 
 After reaching to the this preoject directory yo have to run this following command :
 
