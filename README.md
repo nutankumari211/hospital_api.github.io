@@ -37,21 +37,32 @@ $ nodemon index.js or npm start
 
 Operation check route end point on postman
 
-http://localhost:8000/doctors/register
+1.http://localhost:8000/doctors/register
 here doctors register themselves on this request end point
 
+![Screenshot (468)](https://user-images.githubusercontent.com/31533479/232399964-eda6b8ee-475b-4fab-93b7-275f278dee8f.png)
 
-http://localhost:8000/doctors/login
+
+
+2.http://localhost:8000/doctors/login
 now doctor login on this request.
+![Screenshot (469)](https://user-images.githubusercontent.com/31533479/232400113-e65057f5-2d17-4ab3-9116-ca70ef18e4b3.png)
 
-by using doctor login jwt bearer jwt token , patient will be creatatd.
+
+3.by using doctor login jwt bearer jwt token , patient will be creatatd.
 http://localhost:8000/patients/register
+![Screenshot (470)](https://user-images.githubusercontent.com/31533479/232400171-bee7162b-e95e-424a-96a4-258a07eba62d.png)
 
-now creating of patient report edpoint by taking patient id (63f8b34ecf8cd598d92bfd44) reference.
+
+4.now creating of patient report edpoint by taking patient id (63f8b34ecf8cd598d92bfd44) reference.
 http://localhost:8000/patients/:id/create-report
+![Screenshot (471)](https://user-images.githubusercontent.com/31533479/232400274-452fc8d4-1715-4f40-96b3-ccc373faca91.png)
 
-now showing all report of patient by patient id(63f8b34ecf8cd598d92bfd44).
+
+5.now showing all report of patient by patient id(63f8b34ecf8cd598d92bfd44).
 http://localhost:8000/patients/:id/all_reports
+![Screenshot (472)](https://user-images.githubusercontent.com/31533479/232400331-d51e72d7-3f32-4eea-a7ce-64a8c0537f73.png)
+
 
 route endpoints :- /reports/:status
 
