@@ -60,12 +60,12 @@ http://localhost:8000/patients/register
 ![Screenshot (470)](https://user-images.githubusercontent.com/31533479/232400171-bee7162b-e95e-424a-96a4-258a07eba62d.png)
 
 
-4.now creating of patient report edpoint by taking patient id (63f8b34ecf8cd598d92bfd44) reference.
+4.now creating of patient report edpoint by taking patient id
 http://localhost:8000/patients/:id/create-report
 ![Screenshot (471)](https://user-images.githubusercontent.com/31533479/232400274-452fc8d4-1715-4f40-96b3-ccc373faca91.png)
 
 
-5.now showing all report of patient by patient id(63f8b34ecf8cd598d92bfd44).
+5.now showing all report of patient by patient id.
 http://localhost:8000/patients/:id/all_reports
 ![Screenshot (472)](https://user-images.githubusercontent.com/31533479/232400331-d51e72d7-3f32-4eea-a7ce-64a8c0537f73.png)
 
