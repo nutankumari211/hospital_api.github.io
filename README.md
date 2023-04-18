@@ -40,7 +40,10 @@ $ nodemon index.js or npm start
 
 Operation check route end point on postman
 
+#IN PLACE OF localhost:8000  YOU CAN ALSO USE -->  hospital-api-tgsx.onrender.com/doctors
 1.http://localhost:8000/doctors/register
+
+
 here doctors register themselves on this request end point
 
 ![Screenshot (468)](https://user-images.githubusercontent.com/31533479/232399964-eda6b8ee-475b-4fab-93b7-275f278dee8f.png)
